@@ -48,12 +48,15 @@ nav{
 }
 
 .btn{
-  padding: 1rem 2rem;
+  padding: 1rem 3.5rem;
+  margin: 1rem;
   font-size: 1rem;
   color: #fff;
+  border: 2px solid #1d4ed8;
   background-color: #1d4ed8;
   border-radius: 5px;
   cursor: pointer;
+  filter: drop-shadow(7px 7px 7px rgba(0,0,0,0.3));
 }
 
 .container{
@@ -103,6 +106,86 @@ header .content p{
 
 header .image{
   position: relative;
+  border-radius: 5px 0 10px 0;
 }
 
-header
+.proj{
+  padding: 1rem 3rem;
+  margin: 1rem 2rem;
+  font-size: 1rem;
+  color: #1d4ed8;
+  border: 2px solid #1d4ed8;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  filter: drop-shadow(7px 7px 7px rgba(0,0,0,0.3))
+}
+.container2 h2{
+  color: #1d4ed8;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 0.7rem;
+}
+
+.container2 p{
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.container2{
+  position: relative;
+  margin: 9rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.container2 .image2{
+  float: right;
+  position: relative;
+  max-width: 35rem;
+}
+
+.container3{
+ position: relative;
+ height: 10em;
+}
+
+.container3 .zagolovok{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.container3 h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.container3 .nau{
+  float: inline-start;
+  position: relative;
+  width: 17%;
+  padding-bottom: 17%;
+  margin: 5%;
+}
+
+.container3 .gg{
+  float: left;
+  position: absolute;
+  margin-top: 70%;
+  margin-bottom: 30%;
+  margin-left: 50%;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 85%;
+  border-radius: 5%;
+  float: left;
+}
