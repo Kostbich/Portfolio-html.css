@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
   padding: 0;
@@ -6,18 +6,17 @@
   outline: none;
   border: none;
   box-sizing: border-box;
-}
-
+  }
 img{
   width: 100%;
   display: flex;
 }
-
+  
 body{
   font-family: 'Popins', sans-serif;
   background-color: white;
 }
-
+  
 nav{
   max-width: 1200px;
   margin: auto;
@@ -27,11 +26,11 @@ nav{
   justify-content: space-between;
   gap: 2rem;
 }
-
+  
 .nav-logo{
   max-width: 100px;
 }
-
+  
 .nav-link{
   list-style: none;
   display: flex;
@@ -39,14 +38,14 @@ nav{
   gap: 3rem;
   padding-right: 5rem;
 }
-
+  
 .link a{
   text-decoration: none;
   position: relative;
   padding-bottom: 0.75rem;
   color: #808080;
 }
-
+  
 .btn{
   padding: 1rem 3.5rem;
   margin: 1rem;
@@ -58,19 +57,19 @@ nav{
   cursor: pointer;
   filter: drop-shadow(7px 7px 7px rgba(0,0,0,0.3));
 }
-
+  
 .container{
   max-width: 1200px;
   margin: auto;
   padding: 5rem 2rem;
 }
-
+  
 .blur{
   position: absolute;
   box-shadow: 0 0 1000px 50px #1d4ed8;
   z-index: -100;
 }
-
+  
 header{
   position: relative;
   padding-top: 2rem;
@@ -79,14 +78,14 @@ header{
   align-items: center;
   gap: 2rem;
 }
-
+  
 h4{
   margin-bottom: 1rem;
   color: #1d4ed8;
   font-size: 1rem;
   font-weight: 600;
 }
-
+  
 h1{
   color: #1d4ed8;
   margin-bottom: 1rem;
@@ -94,21 +93,21 @@ h1{
   font-weight: 700;
   line-height: 4rem;
 }
-
+  
 span{
   color: orange
 }
-
+  
 header .content p{
   margin-bottom: 2rem;
   color: black;
 }
-
+  
 header .image{
   position: relative;
   border-radius: 5px 0 10px 0;
 }
-
+  
 .proj{
   padding: 1rem 3rem;
   margin: 1rem 2rem;
@@ -128,12 +127,12 @@ header .image{
   line-height: 4rem;
   letter-spacing: 0.7rem;
 }
-
+  
 .container2 p{
   margin-bottom: 2rem;
   color: black;
 }
-
+  
 .container2{
   position: relative;
   margin: 9rem;
@@ -142,50 +141,122 @@ header .image{
   align-items: center;
   gap: 2rem;
 }
-
+  
 .container2 .image2{
   float: right;
   position: relative;
   max-width: 35rem;
 }
-
+  
 .container3{
- position: relative;
- height: 10em;
+    position: relative;
+    height: 10em;
+}
+  
+.container3 .zagolovok{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+  
+.container3 h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 0.3rem;
+}
+  
+.container3 .nau{
+  float: inline-start;
+    position: relative;
+    width: 17%;
+    padding-bottom: 15%;
+    margin: 5%;
+}
+  
+.container3 .gg{
+    float: left;
+    position: absolute;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: 50%;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 85%;
+    border-radius: 5%;
+    font-size: 0;
+}
+  
+
+.container4{
+  max-width: 1200px;
+  margin: 100px;
+  padding: 100px;
 }
 
-.container3 .zagolovok{
+.feedback-input {
+  display: inline-block;
+  background-color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-bottom: 8px solid gainsboro;
+  border-right: 5px solid gainsboro;
+  line-height: 12px;
+  background-color: transparent;
+  transition: all 0.3s;
+  padding: 15px;
+  margin-bottom: 50px;
+  width:50%;
+  box-sizing: border-box;
+  outline:0;
+  resize:vertical
+}
+  
+  
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+  
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 30%;
+  background:#fff;
+  border-bottom: 8px solid gainsboro;
+  border-right: 5px solid gainsboro;
+  cursor:pointer;
+  color:black;
+  font-size:24px;
+  padding-top:15px;
+  padding-bottom:15px;
+  transition: all 0.3s;
+  margin-top:10px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  font-weight:700;
+}
+  
+.container4 .header{
+  letter-spacing: 0.5rem;
+}
+.container4 .headers{
+  text-align: center;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 400%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-
-.container3 h1{
-  text-align: center;
-  font-size: 50px;
+.container4 .form{
+ position: absolute;
+ margin: 0;
+ top: 420%
 }
 
-.container3 .nau{
-  float: inline-start;
-  position: relative;
-  width: 17%;
-  padding-bottom: 17%;
-  margin: 5%;
-}
-
-.container3 .gg{
-  float: left;
-  position: absolute;
-  margin-top: 70%;
-  margin-bottom: 30%;
-  margin-left: 50%;
-  top: 0;
-  left: 0;
-  width: 110%;
-  height: 85%;
-  border-radius: 5%;
-  float: left;
-}
