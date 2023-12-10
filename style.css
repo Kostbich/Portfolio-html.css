@@ -260,3 +260,78 @@ textarea {
  top: 420%
 }
 
+footer{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 600px repeat(3, 1fr);
+  gap: 2rem;
+  top: 520%;
+  left: 10%;
+  border-bottom: 2px solid black;
+  }
+  
+  footer .column .logo{
+  max-width: 100px;
+  margin-bottom: 2rem;
+  }
+  
+  footer .column p{
+  color: black;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  }
+  
+  footer .column .socials{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  position: absolute;
+  top: 120%;
+  left: 80%;
+  }
+  
+  footer .column .socials a{
+  color: black;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 1.25rem;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  }
+  
+  footer .column .socials a:hover{
+  color: black;
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+  }
+  
+  footer .column h4{
+  color: black;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  }
+  
+  footer .column > a{
+  display: block;
+  color: black;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  }
+  
+  footer .column > a:hover{
+  color: #1d4ed8;
+  }
+  
+  .copyright{
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  color: black;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 550%;
+  left: 9%;
+  }
