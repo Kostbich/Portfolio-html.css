@@ -359,3 +359,11 @@ footer{
   top: 550%;
   left: 9%;
   }
+
+.imgg{
+    width: 40%;
+    position: relative;
+    float: right;
+    top: 500px;
+
+}
